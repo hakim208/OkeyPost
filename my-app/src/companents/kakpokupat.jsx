@@ -205,13 +205,17 @@ const Kakpokupat = () => {
       </div>
       <div className='w-[80%] m-auto '>
         <p className='text-[20px] font-medium md:text-[40px] '>Отзывы и цитаты блогеров:</p>
-       <div className='flex gap-[30px] flex-wrap '>
-       <User img={ImgFon} text="NIKOLAY S" />
-       <User img={ImgFon2} text="NIKOLAY S" />
-       <User img={ImgFon3} text="NIKOLAY S" />
-       <User img={ImgFon4} text="NIKOLAY S" />
-       <button className='bg-[#01D680] text-white py-[25px] px-[70px] rounded-[70px] '>Все отзывы</button>
-       </div>
+        <div className='flex gap-[30px] flex-col md:flex-row'>
+          <div>
+            <User img={ImgFon} text="NIKOLAY S" />
+            <User img={ImgFon2} text="NIKOLAY S" />
+          </div>
+          <div>
+            <User img={ImgFon3} text="NIKOLAY S" />
+            <User img={ImgFon4} text="NIKOLAY S" />
+          </div>
+        </div>
+        <button className='bg-[#01D680] text-white py-[25px] px-[70px] rounded-[70px] '>Все отзывы</button>
       </div>
       <div className='w-[80%] m-auto mt-[70px] flex flex-col items-start gap-[20px] '>
         <p className='text-[15px] font-medium md:text-[30px] '>Ваш личный адрес в Великобритании  для покупок</p>
