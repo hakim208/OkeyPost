@@ -21,13 +21,13 @@ const Footer = () => {
                         <Link to="/pomosh">
                             <p>Помощь</p>
                         </Link>
-                        <Link>
+                        <Link to="/bonus">
                             <p>Бонусы</p>
                         </Link>
-                        <Link>
+                        <Link to="/blog">
                             <p>Блог</p>
                         </Link>
-                        <Link>
+                        <Link to="/magazin">
                             <p>Магазины</p>
                         </Link>
                     </div>

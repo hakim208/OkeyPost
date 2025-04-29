@@ -28,6 +28,18 @@ const App = () => {
         {
           path: "/pomosh",
           element: <Pomosh/>
+        },
+        {
+          path: "/bonus",
+          element: <p>Бонусы</p>
+        },
+        {
+          path: "/blog",
+          element: <p>Блог</p>
+        },
+        {
+          path: "/magazin",
+          element: <p>Магазины</p>
         }
       ]
     }
